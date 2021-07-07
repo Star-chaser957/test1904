@@ -15,6 +15,7 @@ public class ExamServlet extends HttpServlet {
         List<Question> questionList = null;
         int score = 0;
         int sss= 22;
+        int ss是s= 22;
 
         //1.从当前用户私人储物柜得到系统提供四道题目信息
         questionList = (List)session.getAttribute("key");
